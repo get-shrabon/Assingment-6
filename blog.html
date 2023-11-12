@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Question Ans:</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <div class="container">
+        <div class="blog border-bottom">
+            <h3 class="fw-bold text-center">Understanding var, let, and const in JavaScript: A Comprehensive Guide</h3>
+            <ul>
+                <li> <span class="fw-bold fs-5">var: The Legacy Declaration</span> <br>  In the early stages of JavaScript, var was the primary keyword for variable declaration. However, it has some quirks that led to the introduction of let and const in later versions of ECMAScript. Notably, var has function scope, meaning a variable declared with var is accessible throughout the entire function in which it is declared, regardless of block statements.</li>
+                <li> <span class="fw-bold fs-5"> let: Block-Scoped Variables</span> <br> To address the issues associated with var, ECMAScript 6 (ES6) introduced the let keyword. Unlike var, variables declared with let have block scope. This means they are only accessible within the block in which they are defined, making the code cleaner and more predictable.</li>
+                <li> <span class="fw-bold fs-5"> const: Immutable Constants</span> <br> While let allows for variable reassignment, the const keyword introduces immutability. Variables declared with const cannot be reassigned after their initial assignment. Constants declared with const are useful for values that should not be changed throughout the program's execution, enhancing code readability and preventing accidental modifications.</li>
+             
+            </ul>
+            <p>Understanding the differences between var, let, and const is crucial for writing clear, maintainable, and bug-free JavaScript code. While var has historical significance, let and const offer more robust and predictable variable declaration options, catering to the evolving needs of modern JavaScript development. By choosing the right declaration for the right situation, developers can enhance the readability and reliability of their code, contributing to the overall success of their projects.</p>
+        </div>
+        <div class="blog border-bottom">
+            <h3 class="fw-bold text-center">Null and Undefind</h3>
+            <p>`null` and `undefined` in JavaScript serve distinct purposes. `null` is often assigned by developers to indicate the intentional absence of an object value. It's a way of saying, "there is no value here." `undefined`, on the other hand, is usually the default value of uninitialized variables or the value returned by functions that don't explicitly return anything. It signifies the absence of a defined value. Use `null` when you want to explicitly express the absence of a value, and rely on `undefined` for cases where a variable hasn't been assigned or a function doesn't produce a result.</p>
+        </div>
+        <div class="blog">
+            <h3 class="fw-bold text-center">What do you mean by REST API?</h3>
+            <p>REST API, or Representational State Transfer Application Programming Interface, is an architectural style for designing networked applications. It relies on a stateless client-server communication model, emphasizing a set of constraints to create scalable and maintainable web services. REST APIs use standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources, typically communicated in JSON or XML. This simplicity, statelessness, and uniformity make REST APIs widely adopted for building web services, enabling interoperability and ease of integration between different systems and platforms.</p>
+        </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
